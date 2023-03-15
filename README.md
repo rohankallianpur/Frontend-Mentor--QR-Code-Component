@@ -73,8 +73,6 @@ It is important to always reset margin and padding to 0px with a * selector at t
 
 - [CSS Breakpoints in 2022](https://testsigma.com/blog/css-breakpoints/) - This article has a list of common breakpoints.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 ## Author
 
 - Website - [Rohan Kallianpur](https://github.com/rohankallianpur)
