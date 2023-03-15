@@ -1,8 +1,11 @@
+/* This file is organized with the media queries after all the CSS for the desktop. */
+
 :root {
     font-family: 'Outfit', sans-serif;
     font-size: 15px
 }
 
+/*Resets*/
 * {
     margin:0px;
     padding:0px;
@@ -12,6 +15,7 @@ body {
     background-color: hsl(212, 45%, 89%);
 }
 
+/* Defaults, desktop first */
 section {
     display: flex;
     height: 100vh;

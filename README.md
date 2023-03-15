@@ -15,9 +15,11 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+
+This is my first attempt at using Frontend Mentor and very new to coding with HTML and CSS.
+
+This attempt is very simple, with basic HTML & CSS. An attempt has been made to be semantically correct and to organize the CSS with minimal but pertinent commenting.
 
 ### Screenshot
 
