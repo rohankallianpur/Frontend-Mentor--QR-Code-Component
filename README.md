@@ -13,7 +13,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -27,8 +26,8 @@ This attempt is very simple, with basic HTML & CSS. An attempt has been made to 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [QR Code Component Repository](https://github.com/rohankallianpur/Frontend-Mentor--QR-Code-Component)
+- Live Site URL: [QR Code Component](https://rohankallianpur.github.io/Frontend-Mentor--QR-Code-Component/)
 
 ## My process
 
@@ -38,56 +37,45 @@ This attempt is very simple, with basic HTML & CSS. An attempt has been made to 
 - CSS custom properties
 - Flexbox
 
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+#### Display
 
-To see how you can add code snippets, see below:
+Inline-block conforms the container to the size of the contents by default.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+#### Border Radius
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+Nested elements need to have proportionally smaller border radii.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+#### Media Queries
+
+I found it repetitive to create media queries for various different screen sizes. There must be a way to reduce the number of media queries while also making the page consistently proportionate looking as the screen size decreases.
+
+On the plus side I found a list of some [common breakpoints](###useful-resources) that I might be able to use in future templates.
+
+#### Resetting Margin and Padding
+
+It is important to always reset margin and padding to 0px with a * selector at the top of the CSS stylesheet so that there isn't any unintentional margins and padding.
+
+#### GitHub
+
+- Setting up a repository
+- Committing to a repository from my local computer using GitHub Desktop
+- Using GitHub Pages to make the solution visible as web page publically
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- learn mobile first development with media queries that use "min-width" and apply to future development
+- understaning flexbox more concretely so I am certain how best to center any given element
+- what are the ways to conform the size of the parent element to the size of the children and which to use under which circumstances
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS Breakpoints in 2022](https://testsigma.com/blog/css-breakpoints/) - This article has a list of common breakpoints.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - [Rohan Kallianpur](https://github.com/rohankallianpur)
+- Frontend Mentor - [@rohankallianpur](https://www.frontendmentor.io/profile/rohankallianpur)
